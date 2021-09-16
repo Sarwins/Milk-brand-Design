@@ -1,0 +1,58 @@
+<% include include/header %>
+
+<!-- partial -->
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="col-12 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-title" style = "margin: 20px 0 40px 0; font-size: 25px; color: rgb(60, 73, 37);"><i class="mdi mdi-tag-text-outline"></i>&nbsp;고객 관리 등록</p>
+                <form class="forms-sample" style="font-weight: bold;">
+                    <div class="row">
+                        <div class="form-group col">
+                            <label for="exampleInputName1">아파트명</label>
+                            <input type="text" class="form-control" id="exampleApartmentName" placeholder="ex) 광교 중흥">
+                          </div>
+                          <div class="form-group col">
+                            <label for="exampleInputEmail3">동수</label>
+                            <input type="email" class="form-control" id="exampleApartmentBuilding" placeholder="ex) 101동">
+                          </div>
+                          <div class="form-group col">
+                            <label for="exampleInputPassword4">호수</label>
+                            <input type="password" class="form-control" id="exampleApartmentNumber" placeholder="ex) 3509호">
+                          </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col">
+                            <label for="exampleInputName1">우유 브랜드</label>
+                            <input type="text" class="form-control" id="exampleMilksupplier" placeholder="ex) 상하">
+                          </div>
+                          <div class="form-group col">
+                            <label for="exampleInputEmail3">우유 상호명</label>
+                            <input type="email" class="form-control" id="exampleMilkname" placeholder="ex) 상하 우유">
+                          </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col">
+                            <label for="exampleInputName1">우유 생산 날짜</label>
+                            <input type="text" class="form-control" id="exampleMilkdate" placeholder="ex) 2021.09.17">
+                          </div>
+                          <div class="form-group col">
+                            <label for="exampleInputEmail3">우유 개수</label>
+                            <input type="email" class="form-control" id="exampleMilkcount" placeholder="ex) 1111개">
+                          </div>
+                    </div>
+                  <div class="form-group">
+                    <label for="exampleTextarea1">메모</label>
+                    <textarea class="form-control" id="exampleTextarea1" rows="8"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-inverse-primary btn-fw" style="float: right;"><i class="mdi mdi-plus"></i>&nbsp;등록하기</button>
+                  <button class="btn btn-inverse-danger btn-fw" style="margin: 0 10px 0 0; float:right;"><i class="mdi mdi-minus"></i>&nbsp;취소하기</button>
+                </form>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- content-wrapper ends -->
+
+    <% include include/footer %>

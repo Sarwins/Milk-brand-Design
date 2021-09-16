@@ -1,0 +1,174 @@
+<% include include/header %>
+
+<!-- partial -->
+<div class="main-panel">
+    <div class="content-wrapper">
+      <div class="row">
+        <div class="col-md-12 grid-margin stretch-card">
+          <div class="card">
+            <div class="card-body dashboard-tabs p-0">
+              <ul class="nav nav-tabs px-4" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="overview-tab" data-toggle="tab" href="#overview" role="tab" aria-controls="overview" aria-selected="true" style="font-size: 15px; font-weight: bold;">개요</a>
+                </li>
+              </ul>
+              <div class="tab-content py-0 px-0">
+                <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+                  <div class="d-flex flex-wrap justify-content-xl-between">
+                    <div class="d-none d-xl-flex border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
+                      <i class="mdi mdi-calendar-check icon-lg mr-3 text-info"></i>
+                      <div class="d-flex flex-column justify-content-around">
+                        <small class="mb-1 text-muted">달력</small>
+                        <div class="btn btn-secondary p-0 bg-transparent border-0 text-dark shadow-none font-weight-medium" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            <h5 class="mb-0 d-inline-block" id="currentdate">26 Jul 2018</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
+                      <i class="mdi mdi-currency-usd mr-3 icon-lg text-success"></i>
+                      <div class="d-flex flex-column justify-content-around">
+                        <small class="mb-1 text-muted">매출액</small>
+                        <h5 class="mr-2 mb-0">₩99999999</h5>
+                      </div>
+                    </div>
+                    <div class="d-flex border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
+                      <i class="mdi mdi-gas-cylinder mr-3 icon-lg text-primary"></i>
+                      <div class="d-flex flex-column justify-content-around">
+                        <small class="mb-1 text-muted">판매량</small>
+                        <h5 class="mr-2 mb-0">9833550</h5>
+                      </div>
+                    </div>
+                    <div class="d-flex border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
+                      <i class="mdi mdi-account-multiple mr-3 icon-lg text-warning"></i>
+                      <div class="d-flex flex-column justify-content-around">
+                        <small class="mb-1 text-muted">전체 회원 수</small>
+                        <h5 class="mr-2 mb-0">2233783</h5>
+                      </div>
+                    </div>
+                    <div class="d-flex py-3 border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
+                      <i class="mdi mdi-account-multiple-plus mr-3 icon-lg text-danger"></i>
+                      <div class="d-flex flex-column justify-content-around">
+                        <small class="mb-1 text-muted">신입 회원 수</small>
+                        <h5 class="mr-2 mb-0">3497843</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-12 stretch-card">
+          <div class="card">
+            <div class="card-body">
+            <p class="card-title" style = "margin: 8px 0 20px 0; font-size: 25px; color: rgb(60, 73, 37);"><i class="mdi mdi-tag-text-outline"></i>&nbsp;고객 관리</p>
+              <div class="table-responsive">
+                <table id="recent-purchases-listing" class="table">
+                  <thead class="text-center">
+                    <tr>
+                        <th>번호</th>
+                        <th>아파트명</th>
+                        <th>동수</th>
+                        <th>호수</th>
+                        <th>우유 브랜드</th>
+                        <th>우유 상호명</th>
+                        <th>우유 생산 날짜</th>
+                        <th>우유 개수</th>
+                    </tr>
+                  </thead>
+                  <tbody class="text-center font-weight-medium">
+                    <tr>
+                        <td>1</td>
+                        <td>광교 중흥</td>
+                        <td>106동</td>
+                        <td>3905호</td>
+                        <td>상하</td>
+                        <td>상하우유</td>
+                        <td>2021.01</td>
+                        <td>1111</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>광교 중흥</td>
+                        <td>106동</td>
+                        <td>3905호</td>
+                        <td>상하</td>
+                        <td>상하우유</td>
+                        <td>2021.01</td>
+                        <td>1111</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>광교 중흥</td>
+                        <td>106동</td>
+                        <td>3905호</td>
+                        <td>상하</td>
+                        <td>상하우유</td>
+                        <td>2021.01</td>
+                        <td>1111</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>광교 중흥</td>
+                        <td>106동</td>
+                        <td>3905호</td>
+                        <td>상하</td>
+                        <td>상하우유</td>
+                        <td>2021.01</td>
+                        <td>1111</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>광교 중흥</td>
+                        <td>106동</td>
+                        <td>3905호</td>
+                        <td>상하</td>
+                        <td>상하우유</td>
+                        <td>2021.01</td>
+                        <td>1111</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>광교 중흥</td>
+                        <td>106동</td>
+                        <td>3905호</td>
+                        <td>상하</td>
+                        <td>상하우유</td>
+                        <td>2021.01</td>
+                        <td>1111</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>중흥</td>
+                        <td>106동</td>
+                        <td>3905호</td>
+                        <td>상하</td>
+                        <td>상하우유</td>
+                        <td>2021.01</td>
+                        <td>1111</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>광교 중흥</td>
+                        <td>106동</td>
+                        <td>3905호</td>
+                        <td>상하</td>
+                        <td>상하우유</td>
+                        <td>2021.01</td>
+                        <td>1111</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <button type="submit" class="btn btn-inverse-primary btn-fw" style="float: right; margin-top: 15px;" href="/add"><i class="mdi mdi-plus"></i>&nbsp;등록하기</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- content-wrapper ends -->
+
+    <% include include/footer %>
